@@ -2,12 +2,15 @@ package If_Else_Code;
 import java.util.*;
 public class SingleDigitNumberinWord {
     public static void main(String[] args) {
+        System.out.println("Welcome to If else Programming");
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter No ");
         int num = sc.nextInt();
         if(num == 0 ){
             System.out.println("You Entered zero");
-        } else if (num == 1) {
+        }
+        else if (num == 1) {
             System.out.println("One");
         }else if(num == 2){
             System.out.println("--TWO--");
@@ -26,7 +29,7 @@ public class SingleDigitNumberinWord {
         } else if (num == 9) {
             System.out.println("--NINE--");
         } else {
-            System.out.println("Entered Number is not single digit");
+            System.out.println("Enter Valid No");
         }
 
     }
