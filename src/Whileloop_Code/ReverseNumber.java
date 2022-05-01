@@ -3,20 +3,20 @@ package Whileloop_Code;
 public class ReverseNumber {
     public void reverseint() {
         int number = 231;
-        int rmdr = 0;
-        int revrs=0;
+        int remainder = 0;
+        int reverse=0;
 
         while (number != 0) {
-            rmdr = number % 10;
-            revrs=(revrs*10)+rmdr;
+            remainder = number % 10;
+            reverse=(reverse*10)+remainder;
             number = number / 10;
 
         }
-        System.out.println(revrs);
+        System.out.println(reverse);
     }
     public static void main(String[] args) {
 
-        ReverseNumber reverse = new ReverseNumber();
-        reverse.reverseint();
+        ReverseNumber reverseobj = new ReverseNumber();
+        reverseobj.reverseint();
     }
 }
